@@ -1,0 +1,299 @@
+<html lang=en>
+ <head>
+  <meta charset=UTF-8><meta name=viewport
+      content="width=device-width, initial-scale=1">
+  <title>ChangeLog</title>
+  <link rel=alternate
+        href="https://40ants.com/doc/changelog.xml"
+        type="application/rss+xml">
+  <link rel=stylesheet type="text/css"
+        href="../theme.css">
+  <script type="text/javascript" src="../jquery.js"></script>
+  <script type="text/javascript" src="../toc.js"></script>
+  <script type="text/javascript">$(document).ready(function() {$('a:has(img)').css('border-bottom', 'none')})</script>
+  <link rel=stylesheet type="text/css"
+      href="../highlight.min.css">
+  <script type="text/javascript"
+          src="../highlight.min.js"></script>
+  <script type="text/javascript">hljs.highlightAll();</script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-FL71WXK73K"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-FL71WXK73K');
+    </script>
+
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript" >
+       (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+       m[i].l=1*new Date();
+       for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+       k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+       (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+       ym(42462884, "init", {
+            clickmap:true,
+            trackLinks:true,
+            accurateTrackBounce:true
+       });
+    </script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/42462884" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
+
+ </head>
+ <body>
+  <div class=page><a id=fork-me href="https://github.com/40ants/doc">Fork me on GitHub</a>
+   <div class=navbar>
+    <div class=navbar-inner>
+     <a class=brand href="/">
+      <img class=logo
+           src="https://40ants.com/img/logo.svg"></a>
+     <ul class=nav>
+      <li><a href="/posts/">Blog</a>
+      <li><a href="/ru/posts/">Blog (RU)</a>
+      <li><a href="/tips/">Lisp Tips</a>
+      <li><a href="/projects/">Our Projects</a>
+      <li><a href="/about/">About</a>
+     </ul>
+    </div>
+   </div>
+   <input type=checkbox id=sidebar-check>
+   <label for=sidebar-check>
+    <div id=sidebar-trigger>
+     <span></span><span></span><span></span>
+    </div></label><div class=sidebar><div class=header><form class=search method=GET
+      action="../search/">
+      <input type=text name=q>
+      <input type=submit value=Search><span id=search-progress></span>
+     </form>
+    </div><div class=content><div class=page-toc><ul><li><p><a href="../#x-2840ANTS-DOC-FULL-2FDOC-3A-40INDEX-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29" data-document="../" data-node="x-2840ANTS-DOC-FULL-2FDOC-3A-40INDEX-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29">40Ants Doc Manual</a></p><ul><li><p><a href="../#x-2840ANTS-DOC-FULL-2FDOC-3A-3A-40ABOUT-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29" data-document="../" data-node="x-2840ANTS-DOC-FULL-2FDOC-3A-3A-40ABOUT-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29">About this fork</a></p><ul><li><p><a href="../#x-2840ANTS-DOC-FULL-2FDOC-3A-3A-40DIFFERENCE-FROM-MGL-PAX-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29" data-document="../" data-node="x-2840ANTS-DOC-FULL-2FDOC-3A-3A-40DIFFERENCE-FROM-MGL-PAX-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29">Why this fork is different</a></p></li></ul></li><li><p><a href="../#40-ants-doc-asdf-system-details" data-document="../" data-node="40-ants-doc-asdf-system-details">40ANTS-DOC ASDF System Details</a></p></li><li><p><a href="../#40-ants-doc-full-asdf-system-details" data-document="../" data-node="40-ants-doc-full-asdf-system-details">40ANTS-DOC-FULL ASDF System Details</a></p></li><li><p><a href="../#x-2840ANTS-DOC-FULL-2FDOC-3A-3A-40LINKS-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29" data-document="../" data-node="x-2840ANTS-DOC-FULL-2FDOC-3A-3A-40LINKS-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29">Links</a></p></li><li><p><a href="../#x-2840ANTS-DOC-FULL-2FDOC-3A-3A-40BACKGROUND-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29" data-document="../" data-node="x-2840ANTS-DOC-FULL-2FDOC-3A-3A-40BACKGROUND-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29">Background</a></p></li><li><p><a href="../#x-2840ANTS-DOC-FULL-2FDOC-3A-3A-40TUTORIAL-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29" data-document="../" data-node="x-2840ANTS-DOC-FULL-2FDOC-3A-3A-40TUTORIAL-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29">Tutorial</a></p></li><li><p><a href="../#x-2840ANTS-DOC-FULL-2FDOC-3A-3A-40EMACS-INTEGRATION-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29" data-document="../" data-node="x-2840ANTS-DOC-FULL-2FDOC-3A-3A-40EMACS-INTEGRATION-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29">Emacs Integration</a></p></li><li><p><a href="../#x-2840ANTS-DOC-FULL-2FDOC-3A-3A-40BASICS-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29" data-document="../" data-node="x-2840ANTS-DOC-FULL-2FDOC-3A-3A-40BASICS-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29">Basics</a></p><ul><li><p><a href="../#x-2840ANTS-DOC-FULL-2FDOC-3A-3A-40DEFINING-SECTIONS-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29" data-document="../" data-node="x-2840ANTS-DOC-FULL-2FDOC-3A-3A-40DEFINING-SECTIONS-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29">Defining Sections</a></p></li><li><p><a href="../#x-2840ANTS-DOC-FULL-2FDOC-3A-3A-40CROSS-REFERENCING-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29" data-document="../" data-node="x-2840ANTS-DOC-FULL-2FDOC-3A-3A-40CROSS-REFERENCING-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29">Cross-referencing</a></p></li><li><p><a href="../#x-2840ANTS-DOC-FULL-2FDOC-3A-3A-40AUTODOC-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29" data-document="../" data-node="x-2840ANTS-DOC-FULL-2FDOC-3A-3A-40AUTODOC-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29">Autodocumentation</a></p></li></ul></li><li><p><a href="../#x-2840ANTS-DOC-FULL-2FBUILDER-3A-3A-40GENERATING-DOCUMENTATION-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29" data-document="../" data-node="x-2840ANTS-DOC-FULL-2FBUILDER-3A-3A-40GENERATING-DOCUMENTATION-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29">Generating Documentation</a></p><ul><li><p><a href="../#x-2840ANTS-DOC-FULL-2FBUILDER-3A-3A-40RENDERING-MULTIPLE-FORMATS-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29" data-document="../" data-node="x-2840ANTS-DOC-FULL-2FBUILDER-3A-3A-40RENDERING-MULTIPLE-FORMATS-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29">Multiple Formats</a></p></li><li><p><a href="../#x-2840ANTS-DOC-2FCHANGELOG-3A-3A-40INDEX-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29" data-document="../" data-node="x-2840ANTS-DOC-2FCHANGELOG-3A-3A-40INDEX-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29">Changelog Generation</a></p></li><li><p><a href="../#x-2840ANTS-DOC-FULL-2FGITHUB-3A-3A-40GITHUB-WORKFLOW-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29" data-document="../" data-node="x-2840ANTS-DOC-FULL-2FGITHUB-3A-3A-40GITHUB-WORKFLOW-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29">Github Workflow</a></p></li><li><p><a href="../#x-2840ANTS-DOC-FULL-2FWORLD-3A-3A-40WORLD-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29" data-document="../" data-node="x-2840ANTS-DOC-FULL-2FWORLD-3A-3A-40WORLD-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29">PAX World</a></p></li></ul></li><li><p><a href="../#x-2840ANTS-DOC-FULL-2FMARKDOWN-3A-3A-40MARKDOWN-SUPPORT-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29" data-document="../" data-node="x-2840ANTS-DOC-FULL-2FMARKDOWN-3A-3A-40MARKDOWN-SUPPORT-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29">Markdown Support</a></p><ul><li><p><a href="../#x-2840ANTS-DOC-FULL-2FMARKDOWN-3A-3A-40MARKDOWN-INDENTATION-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29" data-document="../" data-node="x-2840ANTS-DOC-FULL-2FMARKDOWN-3A-3A-40MARKDOWN-INDENTATION-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29">Indentation</a></p></li><li><p><a href="../#x-2840ANTS-DOC-FULL-2FMARKDOWN-3A-3A-40MARKDOWN-IMAGES-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29" data-document="../" data-node="x-2840ANTS-DOC-FULL-2FMARKDOWN-3A-3A-40MARKDOWN-IMAGES-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29">Images</a></p></li><li><p><a href="../#x-2840ANTS-DOC-FULL-2FMARKDOWN-3A-3A-40MARKDOWN-SYNTAX-HIGHLIGHTING-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29" data-document="../" data-node="x-2840ANTS-DOC-FULL-2FMARKDOWN-3A-3A-40MARKDOWN-SYNTAX-HIGHLIGHTING-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29">Syntax highlighting</a></p></li><li><p><a href="../#x-2840ANTS-DOC-FULL-2FMARKDOWN-3A-3A-40MATHJAX-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29" data-document="../" data-node="x-2840ANTS-DOC-FULL-2FMARKDOWN-3A-3A-40MATHJAX-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29">MathJax</a></p></li></ul></li><li><p><a href="../#x-2840ANTS-DOC-FULL-2FDOC-3A-3A-40DOCUMENTATION-PRINTER-VARIABLES-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29" data-document="../" data-node="x-2840ANTS-DOC-FULL-2FDOC-3A-3A-40DOCUMENTATION-PRINTER-VARIABLES-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29">Documentation Printer Variables</a></p></li><li><p><a href="../#x-2840ANTS-DOC-FULL-2FDOC-3A-3A-40LOCATIVE-TYPES-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29" data-document="../" data-node="x-2840ANTS-DOC-FULL-2FDOC-3A-3A-40LOCATIVE-TYPES-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29">Locative Types</a></p></li><li><p><a href="../#x-2840ANTS-DOC-FULL-2FDOC-3A-3A-40EXTENSION-API-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29" data-document="../" data-node="x-2840ANTS-DOC-FULL-2FDOC-3A-3A-40EXTENSION-API-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29">Extension API</a></p><ul><li><p><a href="../#x-2840ANTS-DOC-FULL-2FTHEMES-2FDOCS-3A-3A-40DEFINING-A-THEME-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29" data-document="../" data-node="x-2840ANTS-DOC-FULL-2FTHEMES-2FDOCS-3A-3A-40DEFINING-A-THEME-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29">Defining a Custom Theme</a></p><ul><li><p><a href="../#changing-colors" data-document="../" data-node="changing-colors">Changing Colors</a></p></li><li><p><a href="../#changing-page-layout" data-document="../" data-node="changing-page-layout">Changing Page Layout</a></p></li><li><p><a href="../#available-themes" data-document="../" data-node="available-themes">Available Themes</a></p></li><li><p><a href="../#theme-definition-protocol" data-document="../" data-node="theme-definition-protocol">Theme Definition Protocol</a></p></li><li><p><a href="../#plugins-api" data-document="../" data-node="plugins-api">Plugins API</a></p></li><li><p><a href="../#built-in-plugins" data-document="../" data-node="built-in-plugins">Built-in Plugins</a></p></li></ul></li><li><p><a href="../#x-2840ANTS-DOC-FULL-2FDOC-3A-3A-40LOCATIVES-AND-REFERENCES-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29" data-document="../" data-node="x-2840ANTS-DOC-FULL-2FDOC-3A-3A-40LOCATIVES-AND-REFERENCES-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29">Locatives and References</a></p></li><li><p><a href="../#x-2840ANTS-DOC-FULL-2FDOC-3A-3A-40NEW-OBJECT-TYPES-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29" data-document="../" data-node="x-2840ANTS-DOC-FULL-2FDOC-3A-3A-40NEW-OBJECT-TYPES-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29">Adding New Object Types</a></p></li><li><p><a href="../#x-2840ANTS-DOC-FULL-2FDOC-3A-3A-40REFERENCE-BASED-EXTENSIONS-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29" data-document="../" data-node="x-2840ANTS-DOC-FULL-2FDOC-3A-3A-40REFERENCE-BASED-EXTENSIONS-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29">Reference Based Extensions</a></p></li><li><p><a href="../#x-2840ANTS-DOC-FULL-2FDOC-3A-3A-40INCLUDING-IMAGES-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29" data-document="../" data-node="x-2840ANTS-DOC-FULL-2FDOC-3A-3A-40INCLUDING-IMAGES-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29">Including Images</a></p></li><li><p><a href="../#x-2840ANTS-DOC-FULL-2FDOC-3A-3A-40SECTIONS-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29" data-document="../" data-node="x-2840ANTS-DOC-FULL-2FDOC-3A-3A-40SECTIONS-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29">Sections</a></p></li></ul></li><li><p><a href="../#x-2840ANTS-DOC-FULL-2FTRANSCRIBE-3A-3A-40TRANSCRIPT-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29" data-document="../" data-node="x-2840ANTS-DOC-FULL-2FTRANSCRIBE-3A-3A-40TRANSCRIPT-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29">Transcripts</a></p><ul><li><p><a href="../#x-2840ANTS-DOC-FULL-2FTRANSCRIBE-3A-3A-40TRANSCRIPT-EMACS-INTEGRATION-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29" data-document="../" data-node="x-2840ANTS-DOC-FULL-2FTRANSCRIBE-3A-3A-40TRANSCRIPT-EMACS-INTEGRATION-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29">Transcribing with Emacs</a></p></li><li><p><a href="../#x-2840ANTS-DOC-FULL-2FTRANSCRIBE-3A-3A-40TRANSCRIPT-API-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29" data-document="../" data-node="x-2840ANTS-DOC-FULL-2FTRANSCRIBE-3A-3A-40TRANSCRIPT-API-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29">Transcript API</a></p></li></ul></li><li><p><a href="../#x-2840ANTS-DOC-FULL-2FDOC-3A-3A-40TODO-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29" data-document="../" data-node="x-2840ANTS-DOC-FULL-2FDOC-3A-3A-40TODO-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29">TODO</a></p></li></ul></li><li><p><a href="#x-2840ANTS-DOC-2FCHANGELOG-3A-40CHANGELOG-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29" data-document="" data-node="x-2840ANTS-DOC-2FCHANGELOG-3A-40CHANGELOG-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29">ChangeLog</a></p></li></ul>
+     </div>
+    </div><div class=footer>
+     <a href="https://40ants.com/doc">[generated by 40ANTS-DOC]</a>
+    </div>
+   </div><div class=content role=main><h1>ChangeLog<a class=rss-icon href="https://40ants.com/doc/changelog.xml"></a></h1><h2>0.23.0 (2025-01-06)<a class=header-link
+     href=#x-2840ANTS-DOC-2FCHANGELOG-3A-3A-7C0-2E23-2E0-7C-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29
+     title="Permalink to this headline"
+     id=x-2840ANTS-DOC-2FCHANGELOG-3A-3A-7C0-2E23-2E0-7C-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29></a></h2><ul><li><p><code>IGNORE-PACKAGES</code> argument was added to <a href="https://40ants.com/doc/#x-2840ANTS-DOC-3ADEFSECTION-20-2840ANTS-DOC-2FLOCATIVES-3AMACRO-29-29" data-document="https://40ants.com/doc/" data-node="x-2840ANTS-DOC-3ADEFSECTION-20-2840ANTS-DOC-2FLOCATIVES-3AMACRO-29-29"><code>defsection</code></a> macro. Packages
+listed in this argument allows to muffle this warning:</p></li></ul><pre><code class="">Object referenced as #&lt;XREF FOO:BAR CLASS&gt; in &quot;Some section&quot; is not documented.</code></pre><h2>0.22.0 (2025-01-05)<a class=header-link
+     href=#x-2840ANTS-DOC-2FCHANGELOG-3A-3A-7C0-2E22-2E0-7C-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29
+     title="Permalink to this headline"
+     id=x-2840ANTS-DOC-2FCHANGELOG-3A-3A-7C0-2E22-2E0-7C-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29></a></h2><ul><li><p>Exported <a href="https://40ants.com/doc/#x-2840ANTS-DOC-2FOBJECT-PACKAGE-3AOBJECT-PACKAGE-20GENERIC-FUNCTION-29" data-document="https://40ants.com/doc/" data-node="x-2840ANTS-DOC-2FOBJECT-PACKAGE-3AOBJECT-PACKAGE-20GENERIC-FUNCTION-29"><code>40ants-doc/object-package:object-package</code></a> generic-function.
+Define a method for it if you have created a new locative type
+and encounter a warning like this:</p></li></ul><pre><code class="">WARNING:
+   Unable to figure out *package* for object #&lt;40ANTS-DOC/LOCATIVES::DIAGRAM {1012A10B53}&gt;</code></pre><h2>0.21.0 (2025-01-05)<a class=header-link
+     href=#x-2840ANTS-DOC-2FCHANGELOG-3A-3A-7C0-2E21-2E0-7C-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29
+     title="Permalink to this headline"
+     id=x-2840ANTS-DOC-2FCHANGELOG-3A-3A-7C0-2E21-2E0-7C-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29></a></h2><ul><li><p>Changed a way how images are processed. New behaviour should be backward compatible,
+but now it is possible. But now <a href="https://40ants.com/doc/#x-2840ANTS-DOC-FULL-2FCOMMONDOC-2FIMAGE-3ALOCAL-IMAGE-20FUNCTION-29" data-document="https://40ants.com/doc/" data-node="x-2840ANTS-DOC-FULL-2FCOMMONDOC-2FIMAGE-3ALOCAL-IMAGE-20FUNCTION-29"><code>40ants-doc-full/commondoc/image:local-image</code></a> function
+is exported. You can use this function to build a piece of documentation and include
+an image into this doc. See function's docstring for usage example.</p></li></ul><h2>0.20.1 (2024-12-14)<a class=header-link
+     href=#x-2840ANTS-DOC-2FCHANGELOG-3A-3A-7C0-2E20-2E1-7C-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29
+     title="Permalink to this headline"
+     id=x-2840ANTS-DOC-2FCHANGELOG-3A-3A-7C0-2E20-2E1-7C-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29></a></h2><ul><li><p>Fixed dependency from swank-backend package for autodoc package.</p></li></ul><h2>0.20.0 (2024-12-14)<a class=header-link
+     href=#x-2840ANTS-DOC-2FCHANGELOG-3A-3A-7C0-2E20-2E0-7C-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29
+     title="Permalink to this headline"
+     id=x-2840ANTS-DOC-2FCHANGELOG-3A-3A-7C0-2E20-2E0-7C-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29></a></h2><ul><li><p>Type definitions now supported by <a href="https://40ants.com/doc/#x-2840ANTS-DOC-2FAUTODOC-3ADEFAUTODOC-20-2840ANTS-DOC-2FLOCATIVES-3AMACRO-29-29" data-document="https://40ants.com/doc/" data-node="x-2840ANTS-DOC-2FAUTODOC-3ADEFAUTODOC-20-2840ANTS-DOC-2FLOCATIVES-3AMACRO-29-29"><code>40ants-doc/autodoc:defautodoc</code></a> macro.</p></li><li><p>Type expansion is shown for type definitions when building doc on <code>SBCL</code>.</p></li></ul><h2>0.19.0 (2024-12-13)<a class=header-link
+     href=#x-2840ANTS-DOC-2FCHANGELOG-3A-3A-7C0-2E19-2E0-7C-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29
+     title="Permalink to this headline"
+     id=x-2840ANTS-DOC-2FCHANGELOG-3A-3A-7C0-2E19-2E0-7C-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29></a></h2><ul><li><p>Argument <code>IGNORE-PACKAGES</code> was added to <a href="https://40ants.com/doc/#x-2840ANTS-DOC-2FAUTODOC-3ADEFAUTODOC-20-2840ANTS-DOC-2FLOCATIVES-3AMACRO-29-29" data-document="https://40ants.com/doc/" data-node="x-2840ANTS-DOC-2FAUTODOC-3ADEFAUTODOC-20-2840ANTS-DOC-2FLOCATIVES-3AMACRO-29-29"><code>40ants-doc/autodoc:defautodoc</code></a> macro.
+  It can be used to exclude some packages from autogenerated docs.</p></li><li><p>Image <code>URL</code>s now can be specified relative to some other <code>ASDF</code> system.
+  For example <code>![](asdf:some-other-system:images/demo.gif) will look for the image
+  inside the directory of</code>some-other-system` <code>ASDF</code> system.</p></li></ul><h2>0.18.0 (2024-08-29)<a class=header-link
+     href=#x-2840ANTS-DOC-2FCHANGELOG-3A-3A-7C0-2E18-2E0-7C-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29
+     title="Permalink to this headline"
+     id=x-2840ANTS-DOC-2FCHANGELOG-3A-3A-7C0-2E18-2E0-7C-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29></a></h2><ul><li><p>Now default theme looks good on mobile devices.</p></li></ul><h2>0.17.4 (2024-05-15)<a class=header-link
+     href=#x-2840ANTS-DOC-2FCHANGELOG-3A-3A-7C0-2E17-2E4-7C-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29
+     title="Permalink to this headline"
+     id=x-2840ANTS-DOC-2FCHANGELOG-3A-3A-7C0-2E17-2E4-7C-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29></a></h2><ul><li><p>Update 5</p></li></ul><h2>0.17.3 (2024-05-15)<a class=header-link
+     href=#x-2840ANTS-DOC-2FCHANGELOG-3A-3A-7C0-2E17-2E3-7C-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29
+     title="Permalink to this headline"
+     id=x-2840ANTS-DOC-2FCHANGELOG-3A-3A-7C0-2E17-2E3-7C-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29></a></h2><ul><li><p>Update 2</p></li></ul><h2>0.17.2 (2024-05-15)<a class=header-link
+     href=#x-2840ANTS-DOC-2FCHANGELOG-3A-3A-7C0-2E17-2E2-7C-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29
+     title="Permalink to this headline"
+     id=x-2840ANTS-DOC-2FCHANGELOG-3A-3A-7C0-2E17-2E2-7C-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29></a></h2><ul><li><p>Another update.</p></li></ul><h2>0.17.1 (2024-05-15)<a class=header-link
+     href=#x-2840ANTS-DOC-2FCHANGELOG-3A-3A-7C0-2E17-2E1-7C-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29
+     title="Permalink to this headline"
+     id=x-2840ANTS-DOC-2FCHANGELOG-3A-3A-7C0-2E17-2E1-7C-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29></a></h2><ul><li><p>Just a check if tag will be added automatically.</p></li></ul><h2>0.17.0 (2024-05-13)<a class=header-link
+     href=#x-2840ANTS-DOC-2FCHANGELOG-3A-3A-7C0-2E17-2E0-7C-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29
+     title="Permalink to this headline"
+     id=x-2840ANTS-DOC-2FCHANGELOG-3A-3A-7C0-2E17-2E0-7C-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29></a></h2><h3 id="backward-incompatible">Backward incompatible</h3><ul><li><p>A plugin system was introduced.</p></li><li><p>Highlight.js and MathJax support were refactored into plugins and MathJax is turned off by default,
+  because it's assets too heavy and math is unnecessary in most Common Lisp libraries.</p></li><li><p>Generic-function <a href="https://40ants.com/doc/#x-2840ANTS-DOC-FULL-2FTHEMES-2FAPI-3AHIGHLIGHT-LANGUAGES-20GENERIC-FUNCTION-29" data-document="https://40ants.com/doc/" data-node="x-2840ANTS-DOC-FULL-2FTHEMES-2FAPI-3AHIGHLIGHT-LANGUAGES-20GENERIC-FUNCTION-29"><code>40ants-doc-full/themes/api:highlight-languages</code></a> and generic-function <a href="https://40ants.com/doc/#x-2840ANTS-DOC-FULL-2FTHEMES-2FAPI-3AHIGHLIGHT-THEME-20GENERIC-FUNCTION-29" data-document="https://40ants.com/doc/" data-node="x-2840ANTS-DOC-FULL-2FTHEMES-2FAPI-3AHIGHLIGHT-THEME-20GENERIC-FUNCTION-29"><code>40ants-doc-full/themes/api:highlight-theme</code></a>
+  are now deprecated. Pass options <code>:LANGUAGES</code> and <code>:THEME</code> arguments to <a href="https://40ants.com/doc/#x-2840ANTS-DOC-FULL-2FPLUGINS-2FHIGHLIGHTJS-3AHIGHLIGHTJS-20FUNCTION-29" data-document="https://40ants.com/doc/" data-node="x-2840ANTS-DOC-FULL-2FPLUGINS-2FHIGHLIGHTJS-3AHIGHLIGHTJS-20FUNCTION-29"><code>40ants-doc-full/plugins/highlightjs:highlightjs</code></a> function
+  instead.</p></li></ul><h2>0.16.0 (2024-05-04)<a class=header-link
+     href=#x-2840ANTS-DOC-2FCHANGELOG-3A-3A-7C0-2E16-2E0-7C-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29
+     title="Permalink to this headline"
+     id=x-2840ANTS-DOC-2FCHANGELOG-3A-3A-7C0-2E16-2E0-7C-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29></a></h2><ul><li><p>A generic-function <a href="https://40ants.com/doc/#x-2840ANTS-DOC-2FLOCATIVES-2FASDF-SYSTEM-3AASDF-SYSTEM-DOCUMENTATION-TITLE-20GENERIC-FUNCTION-29" data-document="https://40ants.com/doc/" data-node="x-2840ANTS-DOC-2FLOCATIVES-2FASDF-SYSTEM-3AASDF-SYSTEM-DOCUMENTATION-TITLE-20GENERIC-FUNCTION-29"><code>40ants-doc/locatives/asdf-system:asdf-system-documentation-title</code></a> was added. It allows to override the text of a section showing an information about <code>ASDF</code> system.</p></li></ul><h2>0.15.4 (2024-01-26)<a class=header-link
+     href=#x-2840ANTS-DOC-2FCHANGELOG-3A-3A-7C0-2E15-2E4-7C-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29
+     title="Permalink to this headline"
+     id=x-2840ANTS-DOC-2FCHANGELOG-3A-3A-7C0-2E15-2E4-7C-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29></a></h2><ul><li><p>Another fix to <code>URL</code>s on the search page. Now if <code>CLEAN-URLS</code> argument is true, search page will link to the pages ended with a backslash. Otherwise, it will link to the html pages.</p></li></ul><h2>0.15.3 (2024-01-24)<a class=header-link
+     href=#x-2840ANTS-DOC-2FCHANGELOG-3A-3A-7C0-2E15-2E3-7C-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29
+     title="Permalink to this headline"
+     id=x-2840ANTS-DOC-2FCHANGELOG-3A-3A-7C0-2E15-2E3-7C-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29></a></h2><ul><li><p>Fixed <code>URL</code>s in the search index file when <code>CLEAN-URLS</code> argument is given. This should prevent redirection to index.html file from search page - now index.html will be stripped from the path.</p></li></ul><h2>0.15.2 (2023-11-28)<a class=header-link
+     href=#x-2840ANTS-DOC-2FCHANGELOG-3A-3A-7C0-2E15-2E2-7C-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29
+     title="Permalink to this headline"
+     id=x-2840ANTS-DOC-2FCHANGELOG-3A-3A-7C0-2E15-2E2-7C-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29></a></h2><ul><li><p>Fixed stack exhausting when trying to collect dependencies for some <code>ASDF</code> systems.</p></li></ul><h2>0.15.1 (2023-08-05)<a class=header-link
+     href=#x-2840ANTS-DOC-2FCHANGELOG-3A-3A-7C0-2E15-2E1-7C-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29
+     title="Permalink to this headline"
+     id=x-2840ANTS-DOC-2FCHANGELOG-3A-3A-7C0-2E15-2E1-7C-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29></a></h2><ul><li><p>Fixed issue with unpacking Highlight.js archive when it is having absolute pathnames.</p></li></ul><p>Also, a new download <code>API</code> is used now.</p><h2>0.15.0 (2023-07-22)<a class=header-link
+     href=#x-2840ANTS-DOC-2FCHANGELOG-3A-3A-7C0-2E15-2E0-7C-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29
+     title="Permalink to this headline"
+     id=x-2840ANTS-DOC-2FCHANGELOG-3A-3A-7C0-2E15-2E0-7C-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29></a></h2><ul><li><p>Autodoc was fixed to not show packages without external symbols.</p></li><li><p>Also, now autodoc sorts packages alphabetically.</p></li></ul><h2>0.14.0 (2023-06-04)<a class=header-link
+     href=#x-2840ANTS-DOC-2FCHANGELOG-3A-3A-7C0-2E14-2E0-7C-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29
+     title="Permalink to this headline"
+     id=x-2840ANTS-DOC-2FCHANGELOG-3A-3A-7C0-2E14-2E0-7C-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29></a></h2><ul><li><p>Added <a href="https://40ants.com/doc/#x-2840ANTS-DOC-3A-2ASYMBOLS-WITH-IGNORED-MISSING-LOCATIONS-2A-20-28VARIABLE-29-29" data-document="https://40ants.com/doc/" data-node="x-2840ANTS-DOC-3A-2ASYMBOLS-WITH-IGNORED-MISSING-LOCATIONS-2A-20-28VARIABLE-29-29"><code>40ants-doc:*symbols-with-ignored-missing-locations*</code></a> variable to ignore warnings on missing source location.</p></li></ul><p>This might be useful for autogenerated methods. For example, Mito does generate such reader methods
+<a href="https://github.com/fukamachi/mito/blob/6835d2c8120454e93c69d4f22cccb10d9ee24526/src/core/dao/mixin.lisp#L71">here</a>.</p><h2>0.13.0 (2023-06-04)<a class=header-link
+     href=#x-2840ANTS-DOC-2FCHANGELOG-3A-3A-7C0-2E13-2E0-7C-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29
+     title="Permalink to this headline"
+     id=x-2840ANTS-DOC-2FCHANGELOG-3A-3A-7C0-2E13-2E0-7C-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29></a></h2><ul><li><p>Support for variables was added to autodoc subsystem.</p></li></ul><h2>0.12.0 (2023-04-22)<a class=header-link
+     href=#x-2840ANTS-DOC-2FCHANGELOG-3A-3A-7C0-2E12-2E0-7C-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29
+     title="Permalink to this headline"
+     id=x-2840ANTS-DOC-2FCHANGELOG-3A-3A-7C0-2E12-2E0-7C-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29></a></h2><ul><li><p>Autodoc subsystem was added. It provides a <a href="https://40ants.com/doc/#x-2840ANTS-DOC-2FAUTODOC-3ADEFAUTODOC-20-2840ANTS-DOC-2FLOCATIVES-3AMACRO-29-29" data-document="https://40ants.com/doc/" data-node="x-2840ANTS-DOC-2FAUTODOC-3ADEFAUTODOC-20-2840ANTS-DOC-2FLOCATIVES-3AMACRO-29-29"><code>40ants-doc/autodoc:defautodoc</code></a> macro which can build an <code>API</code> reference for a given <code>ASDF</code> system.</p></li><li><p>Now we output a list of dependencies for an <code>ASDF</code> system description.</p></li></ul><h2>0.11.2 (2022-12-05)<a class=header-link
+     href=#x-2840ANTS-DOC-2FCHANGELOG-3A-3A-7C0-2E11-2E2-7C-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29
+     title="Permalink to this headline"
+     id=x-2840ANTS-DOC-2FCHANGELOG-3A-3A-7C0-2E11-2E2-7C-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29></a></h2><ul><li><p>Script on the search page was fixed.</p></li></ul><h2>0.11.1 (2022-11-26)<a class=header-link
+     href=#x-2840ANTS-DOC-2FCHANGELOG-3A-3A-7C0-2E11-2E1-7C-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29
+     title="Permalink to this headline"
+     id=x-2840ANTS-DOC-2FCHANGELOG-3A-3A-7C0-2E11-2E1-7C-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29></a></h2><ul><li><p>Fixed <a href="https://40ants.com/doc/#x-2840ANTS-DOC-2FLOCATIVES-2FBASE-3ALOCATIVE-TYPE-20GENERIC-FUNCTION-29" data-document="https://40ants.com/doc/" data-node="x-2840ANTS-DOC-2FLOCATIVES-2FBASE-3ALOCATIVE-TYPE-20GENERIC-FUNCTION-29"><code>40ants-doc/locatives/base:locative-type</code></a> broken by previous refactoring. Now this function
+was transformed into generic-function as well as <a href="https://40ants.com/doc/#x-2840ANTS-DOC-2FLOCATIVES-2FBASE-3ALOCATIVE-ARGS-20GENERIC-FUNCTION-29" data-document="https://40ants.com/doc/" data-node="x-2840ANTS-DOC-2FLOCATIVES-2FBASE-3ALOCATIVE-ARGS-20GENERIC-FUNCTION-29"><code>40ants-doc/locatives/base:locative-args</code></a>.</p></li></ul><h2>0.11.0 (2022-11-16)<a class=header-link
+     href=#x-2840ANTS-DOC-2FCHANGELOG-3A-3A-7C0-2E11-2E0-7C-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29
+     title="Permalink to this headline"
+     id=x-2840ANTS-DOC-2FCHANGELOG-3A-3A-7C0-2E11-2E0-7C-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29></a></h2><ul><li><p>Large refactoring was introduced. All files related to the documentation builder were moved to <code>./full/</code> folder and corresponding packages was renamed to have <code>40ants-doc-full/</code> prefix.</p></li></ul><h2>0.10.0 (2022-11-09)<a class=header-link
+     href=#x-2840ANTS-DOC-2FCHANGELOG-3A-3A-7C0-2E10-2E0-7C-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29
+     title="Permalink to this headline"
+     id=x-2840ANTS-DOC-2FCHANGELOG-3A-3A-7C0-2E10-2E0-7C-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29></a></h2><ul><li><p>Default theme was reworked and now uses divs and flex for rendering &quot;bullets&quot;.
+Also, bullets were made more structured and now it is more convenient to change their design using <code>CSS</code>.</p></li></ul><h2>0.9.2 (2022-10-26)<a class=header-link
+     href=#x-2840ANTS-DOC-2FCHANGELOG-3A-3A-7C0-2E9-2E2-7C-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29
+     title="Permalink to this headline"
+     id=x-2840ANTS-DOC-2FCHANGELOG-3A-3A-7C0-2E9-2E2-7C-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29></a></h2><ul><li><p>Fixed a few issues with <code>ASDF</code> and warnings from find-system generic-function:</p></li></ul><pre><code class="">Computing just-done stamp  for action (ASDF/LISP-ACTION:COMPILE-OP
+  &quot;40ants-asdf-system/changelog&quot;), but dependency (ASDF/LISP-ACTION:COMPILE-OP
+  &quot;40ants-asdf-system/changelog&quot;
+  &quot;file-type&quot;) wasn't done yet!</code></pre><h2>0.9.1 (2022-10-19)<a class=header-link
+     href=#x-2840ANTS-DOC-2FCHANGELOG-3A-3A-7C0-2E9-2E1-7C-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29
+     title="Permalink to this headline"
+     id=x-2840ANTS-DOC-2FCHANGELOG-3A-3A-7C0-2E9-2E1-7C-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29></a></h2><ul><li><p>Fixed 40ants-doc asdf system dependency from the 40ants-doc/ignored-words. Because this module should be in the core system.</p></li></ul><h2>0.9.0 (2022-02-21)<a class=header-link
+     href=#x-2840ANTS-DOC-2FCHANGELOG-3A-3A-7C0-2E9-2E0-7C-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29
+     title="Permalink to this headline"
+     id=x-2840ANTS-DOC-2FCHANGELOG-3A-3A-7C0-2E9-2E0-7C-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29></a></h2><ul><li><p>Now you can refer internal documentation section of other libraries.
+To do this, put the link to this library documentation to the
+<code>EXTERNAL-DOCS</code> argument of <a href="https://40ants.com/doc/#x-2840ANTS-DOC-3ADEFSECTION-20-2840ANTS-DOC-2FLOCATIVES-3AMACRO-29-29" data-document="https://40ants.com/doc/" data-node="x-2840ANTS-DOC-3ADEFSECTION-20-2840ANTS-DOC-2FLOCATIVES-3AMACRO-29-29"><code>40ants-doc:defsection</code></a> macro and then
+mention other section like this: <code>40ANTS-CI::@CRITIC section</code>.</p></li></ul><h2>0.8.0 (2022-02-14)<a class=header-link
+     href=#x-2840ANTS-DOC-2FCHANGELOG-3A-3A-7C0-2E8-2E0-7C-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29
+     title="Permalink to this headline"
+     id=x-2840ANTS-DOC-2FCHANGELOG-3A-3A-7C0-2E8-2E0-7C-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29></a></h2><ul><li><p>Now <a href="https://40ants.com/doc/#x-2840ANTS-DOC-FULL-2FCOMMONDOC-2FMAPPER-3AMAP-NODES-20GENERIC-FUNCTION-29" data-document="https://40ants.com/doc/" data-node="x-2840ANTS-DOC-FULL-2FCOMMONDOC-2FMAPPER-3AMAP-NODES-20GENERIC-FUNCTION-29"><code>40ants-doc-full/commondoc/mapper:map-nodes</code></a> generic-function
+  supports any node type which defines a method for
+  generic-function <a href="https://40ants.com/doc/#x-2840ANTS-DOC-FULL-2FCOMMONDOC-2FMAPPER-3ANODE-SUPPORTS-CHILDREN-20GENERIC-FUNCTION-29" data-document="https://40ants.com/doc/" data-node="x-2840ANTS-DOC-FULL-2FCOMMONDOC-2FMAPPER-3ANODE-SUPPORTS-CHILDREN-20GENERIC-FUNCTION-29"><code>40ants-doc-full/commondoc/mapper:node-supports-children</code></a>.</p></li><li><p>Default theme was fixed to work with latest Spinneret, which now
+  escapes single quotes inside <code>HTML</code> nodes.</p></li></ul><h2>0.7.0 (2021-12-31)<a class=header-link
+     href=#x-2840ANTS-DOC-2FCHANGELOG-3A-3A-7C0-2E7-2E0-7C-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29
+     title="Permalink to this headline"
+     id=x-2840ANTS-DOC-2FCHANGELOG-3A-3A-7C0-2E7-2E0-7C-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29></a></h2><ul><li><p><a href="https://40ants.com/doc/#x-2840ANTS-DOC-2FCHANGELOG-3ADEFCHANGELOG-20-2840ANTS-DOC-2FLOCATIVES-3AMACRO-29-29" data-document="https://40ants.com/doc/" data-node="x-2840ANTS-DOC-2FCHANGELOG-3ADEFCHANGELOG-20-2840ANTS-DOC-2FLOCATIVES-3AMACRO-29-29"><code>40ants/changelog:defchangelog</code></a> now supports <code>EXTERNAL-LINKS</code> argument.</p></li><li><p>Automatic symbol extraction now ignores dates like 2021-12-31. Now
+  to make it work, the symbol should contain at least one alpha character.</p></li></ul><h2>0.6.0 (2021-12-05)<a class=header-link
+     href=#x-2840ANTS-DOC-2FCHANGELOG-3A-3A-7C0-2E6-2E0-7C-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29
+     title="Permalink to this headline"
+     id=x-2840ANTS-DOC-2FCHANGELOG-3A-3A-7C0-2E6-2E0-7C-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29></a></h2><ul><li><p>Fixed the issue, when we tried to find uppercased xrefs inside inline code and links.</p></li><li><p>Added <code>EXTERNAL-LINKS</code> argument to <a href="https://40ants.com/doc/#x-2840ANTS-DOC-3ADEFSECTION-20-2840ANTS-DOC-2FLOCATIVES-3AMACRO-29-29" data-document="https://40ants.com/doc/" data-node="x-2840ANTS-DOC-3ADEFSECTION-20-2840ANTS-DOC-2FLOCATIVES-3AMACRO-29-29"><code>defsection</code></a> macro. It can be useful, if you have a multiple
+  text sections having the same external link.</p></li><li><p>Now it is possible to use <a href="https://40ants.com/doc/#x-2840ANTS-DOC-2FIGNORED-WORDS-3AIGNORE-WORDS-IN-PACKAGE-20-2840ANTS-DOC-2FLOCATIVES-3AMACRO-29-29" data-document="https://40ants.com/doc/" data-node="x-2840ANTS-DOC-2FIGNORED-WORDS-3AIGNORE-WORDS-IN-PACKAGE-20-2840ANTS-DOC-2FLOCATIVES-3AMACRO-29-29"><code>40ants-doc/ignored-words:ignore-words-in-package</code></a>
+  to suppress warning on symbols which are exported but not documented.</p></li></ul><h2>0.5.8 (2021-10-23)<a class=header-link
+     href=#x-2840ANTS-DOC-2FCHANGELOG-3A-3A-7C0-2E5-2E8-7C-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29
+     title="Permalink to this headline"
+     id=x-2840ANTS-DOC-2FCHANGELOG-3A-3A-7C0-2E5-2E8-7C-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29></a></h2><ul><li><p>Fixed the way of how a <code>TOC</code> is built. Previosly it incorrectly shown nested <code>COMMONDOC:SECTION</code> objects.</p></li></ul><h2>0.5.7 (2021-10-21)<a class=header-link
+     href=#x-2840ANTS-DOC-2FCHANGELOG-3A-3A-7C0-2E5-2E7-7C-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29
+     title="Permalink to this headline"
+     id=x-2840ANTS-DOC-2FCHANGELOG-3A-3A-7C0-2E5-2E7-7C-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29></a></h2><ul><li><p><a href="https://40ants.com/doc/#x-2840ANTS-DOC-3ADEFSECTION-20-2840ANTS-DOC-2FLOCATIVES-3AMACRO-29-29" data-document="https://40ants.com/doc/" data-node="x-2840ANTS-DOC-3ADEFSECTION-20-2840ANTS-DOC-2FLOCATIVES-3AMACRO-29-29"><code>defsection</code></a> macro now supports <code>EXTERNAL-DOCS</code> argument.</p></li></ul><h2>0.5.6 (2021-10-21)<a class=header-link
+     href=#x-2840ANTS-DOC-2FCHANGELOG-3A-3A-7C0-2E5-2E6-7C-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29
+     title="Permalink to this headline"
+     id=x-2840ANTS-DOC-2FCHANGELOG-3A-3A-7C0-2E5-2E6-7C-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29></a></h2><ul><li><p>Blockquotes markup is supported now.</p></li><li><p>Now external references are rendered as code and downcased according to the settings.</p></li></ul><h2>0.5.5 (2021-09-26)<a class=header-link
+     href=#x-2840ANTS-DOC-2FCHANGELOG-3A-3A-7C0-2E5-2E5-7C-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29
+     title="Permalink to this headline"
+     id=x-2840ANTS-DOC-2FCHANGELOG-3A-3A-7C0-2E5-2E5-7C-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29></a></h2><p>Warning messages like:</p><pre><code class="">Unable to find target for reference #&lt;XREF 40ANTS-DOC/COMMONDOC/XREF:XREF&gt; mentioned at ChangeLog / 0.5.3  (2021-09-08)</code></pre><p>were rewritten to be more actionable:</p><pre><code class="">Object referenced as #&lt;XREF 40ANTS-DOC/COMMONDOC/XREF:XREF&gt; in ChangeLog / 0.5.3  (2021-09-08) is not documented.</code></pre><h2>0.5.4 (2021-09-11)<a class=header-link
+     href=#x-2840ANTS-DOC-2FCHANGELOG-3A-3A-7C0-2E5-2E4-7C-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29
+     title="Permalink to this headline"
+     id=x-2840ANTS-DOC-2FCHANGELOG-3A-3A-7C0-2E5-2E4-7C-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29></a></h2><ul><li><p>Included changelog.lisp into the <a href="https://40ants.com/doc/#x-28-23A-28-2810-29-20BASE-CHAR-20-2E-20-2240ants-doc-22-29-20ASDF-2FSYSTEM-3ASYSTEM-29" data-document="https://40ants.com/doc/" data-node="x-28-23A-28-2810-29-20BASE-CHAR-20-2E-20-2240ants-doc-22-29-20ASDF-2FSYSTEM-3ASYSTEM-29"><code>40ants-doc</code></a> system.</p></li></ul><h2>0.5.3 (2021-09-08)<a class=header-link
+     href=#x-2840ANTS-DOC-2FCHANGELOG-3A-3A-7C0-2E5-2E3-7C-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29
+     title="Permalink to this headline"
+     id=x-2840ANTS-DOC-2FCHANGELOG-3A-3A-7C0-2E5-2E3-7C-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29></a></h2><ul><li><p>Fixed locatives parsing in case if there are more than one <code>40ANTS-DOC/COMMONDOC/XREF:XREF</code> in the text.</p></li></ul><h2>0.5.2 (2021-09-08)<a class=header-link
+     href=#x-2840ANTS-DOC-2FCHANGELOG-3A-3A-7C0-2E5-2E2-7C-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29
+     title="Permalink to this headline"
+     id=x-2840ANTS-DOC-2FCHANGELOG-3A-3A-7C0-2E5-2E2-7C-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29></a></h2><ul><li><p>Now default theme removes underline from images nested into the <code>&lt;a&gt;</code> <code>HTML</code> tag.</p></li><li><p>Fixed images collection for case when current directory is different from the
+  <code>ASDF</code> system's directory.</p></li></ul><h2>0.5.1 (2021-09-07)<a class=header-link
+     href=#x-2840ANTS-DOC-2FCHANGELOG-3A-3A-7C0-2E5-2E1-7C-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29
+     title="Permalink to this headline"
+     id=x-2840ANTS-DOC-2FCHANGELOG-3A-3A-7C0-2E5-2E1-7C-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29></a></h2><ul><li><p>Fixed reference index generation and comparison of usual references with references where locative is a string.</p></li></ul><h2>0.5.0 (2021-09-06)<a class=header-link
+     href=#x-2840ANTS-DOC-2FCHANGELOG-3A-3A-7C0-2E5-2E0-7C-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29
+     title="Permalink to this headline"
+     id=x-2840ANTS-DOC-2FCHANGELOG-3A-3A-7C0-2E5-2E0-7C-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29></a></h2><ul><li><p>Now <a href="https://40ants.com/doc/#x-2840ANTS-DOC-3ADEFSECTION-20-2840ANTS-DOC-2FLOCATIVES-3AMACRO-29-29" data-document="https://40ants.com/doc/" data-node="x-2840ANTS-DOC-3ADEFSECTION-20-2840ANTS-DOC-2FLOCATIVES-3AMACRO-29-29"><code>40ants-doc:defsection</code></a> macro accepts <code>EXTERNAL-DOCS</code> argument.
+Together with <code>HTML</code> pages, <code>references.json</code> file is rendered, and you can
+provide a list of urls of external libraries' documentation to have an automatic
+cross-referencing between them.</p></li></ul><h2>0.4.1 (2021-09-05)<a class=header-link
+     href=#x-2840ANTS-DOC-2FCHANGELOG-3A-3A-7C0-2E4-2E1-7C-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29
+     title="Permalink to this headline"
+     id=x-2840ANTS-DOC-2FCHANGELOG-3A-3A-7C0-2E4-2E1-7C-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29></a></h2><ul><li><p>Function <a href="https://40ants.com/doc/#x-2840ANTS-DOC-FULL-2FBUILDER-3AGET-CURRENT-ASDF-SYSTEM-20FUNCTION-29" data-document="https://40ants.com/doc/" data-node="x-2840ANTS-DOC-FULL-2FBUILDER-3AGET-CURRENT-ASDF-SYSTEM-20FUNCTION-29"><code>40ants-doc-full/builder:get-current-asdf-system</code></a> was added. Now you can use it to do something interesting
+  like showing &quot;Fork me on the GitHub&quot; stripe <a href="https://github.com/40ants/40ants-doc-theme-40ants/commit/917a4c1e72b0379f509bdee4864531e641c9ec4e#diff-47d16baea2d4ef710747f19c24df8cf7ef4f6bbbfd1dbb0ade55f47457b1e8feR155-R161">as my own theme do</a>.</p></li><li><p>Markdown files now will have a footer saying that a file was generated by <a href="https://40ants.com/doc/#x-28-23A-28-2810-29-20BASE-CHAR-20-2E-20-2240ants-doc-22-29-20ASDF-2FSYSTEM-3ASYSTEM-29" data-document="https://40ants.com/doc/" data-node="x-28-23A-28-2810-29-20BASE-CHAR-20-2E-20-2240ants-doc-22-29-20ASDF-2FSYSTEM-3ASYSTEM-29"><code>40ants-doc</code></a>.</p></li><li><p>An <code>RSS</code> feed is generated for changelog. Also, changelog items can have a date now.</p></li></ul><h2>0.4.0 (2021-09-05)<a class=header-link
+     href=#x-2840ANTS-DOC-2FCHANGELOG-3A-3A-7C0-2E4-2E0-7C-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29
+     title="Permalink to this headline"
+     id=x-2840ANTS-DOC-2FCHANGELOG-3A-3A-7C0-2E4-2E0-7C-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29></a></h2><ul><li><p><code>*DOCUMENT-NORMALIZE-PACKAGES*</code> variable was replaced with <code>FULL-PACKAGE-NAMES</code> argument
+of <a href="https://40ants.com/doc/#x-2840ANTS-DOC-FULL-2FBUILDER-3ARENDER-TO-FILES-20FUNCTION-29" data-document="https://40ants.com/doc/" data-node="x-2840ANTS-DOC-FULL-2FBUILDER-3ARENDER-TO-FILES-20FUNCTION-29"><code>40ants-doc-full/builder:render-to-files</code></a> function.</p></li></ul><h2>0.3.0 (2021-09-04)<a class=header-link
+     href=#x-2840ANTS-DOC-2FCHANGELOG-3A-3A-7C0-2E3-2E0-7C-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29
+     title="Permalink to this headline"
+     id=x-2840ANTS-DOC-2FCHANGELOG-3A-3A-7C0-2E3-2E0-7C-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29></a></h2><ul><li><p>Now images are copied to target folder together with <code>HTML</code> documentation
+  and links are adjusted accordingly.</p></li><li><p>Added a protocol to define new color themes and change page layout.
+  Three new themes are available out of the box.
+  Read more at <a href="https://40ants.com/doc/#x-2840ANTS-DOC-FULL-2FTHEMES-2FDOCS-3A-3A-40DEFINING-A-THEME-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29" data-document="https://40ants.com/doc/" data-node="x-2840ANTS-DOC-FULL-2FTHEMES-2FDOCS-3A-3A-40DEFINING-A-THEME-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29"><code>Defining a Custom Theme</code></a> section.</p></li></ul><h2>0.2.0 (2021-09-01)<a class=header-link
+     href=#x-2840ANTS-DOC-2FCHANGELOG-3A-3A-7C0-2E2-2E0-7C-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29
+     title="Permalink to this headline"
+     id=x-2840ANTS-DOC-2FCHANGELOG-3A-3A-7C0-2E2-2E0-7C-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29></a></h2><ul><li><p>Now defsection does not exports symbols by default</p></li><li><p>You can render documents in multiple formats in a single run having cross links.
+  For example shorter <code>README</code>.md could mention symbols and have correct
+  links to the full documentation</p></li><li><p>&quot;Clean&quot; <code>URL</code>s are supported out of the box.</p></li><li><p>Now defsection does not export nor mentioned symbols nor the name of the section
+  It is better to have explicit exports.</p></li><li><p><a href="https://40ants.com/doc/#x-2840ANTS-DOC-2FLOCATIVES-3AINCLUDE-20-2840ANTS-DOC-2FLOCATIVES-3ALOCATIVE-29-29" data-document="https://40ants.com/doc/" data-node="x-2840ANTS-DOC-2FLOCATIVES-3AINCLUDE-20-2840ANTS-DOC-2FLOCATIVES-3ALOCATIVE-29-29"><code>40ants-doc/locatives:include</code></a> locative now does not support <code>:HEADER</code>, <code>:FOOTER</code> and some other arguments. Use <code>:LANG</code> argument instead.</p></li><li><p>Added code highlighting using Highlight.js library.</p></li><li><p>Added search form which uses index in browser. <code>JS</code> code was taken from
+  <a href="https://www.sphinx-doc.org/">Sphinx</a> documentation builder.</p></li><li><p>Elisp code for transcriptions was fixed and now should word not
+  only with <code>SLIME</code>, but also with <code>SLY</code>.</p></li><li><p><a href="https://40ants.com/doc/#x-2840ANTS-DOC-3ADEFSECTION-20-2840ANTS-DOC-2FLOCATIVES-3AMACRO-29-29" data-document="https://40ants.com/doc/" data-node="x-2840ANTS-DOC-3ADEFSECTION-20-2840ANTS-DOC-2FLOCATIVES-3AMACRO-29-29"><code>40ants-doc:defsection</code></a> macro now does not generate export code
+  if <code>:EXPORT</code> argument is <code>NIL</code>.</p></li><li><p>Functions <code>UPDATE-ASDF-SYSTEM-HTML-DOCS</code> and <code>UPDATE-ASDF-SYSTEM-README</code>
+  were replaced with <a href="https://40ants.com/doc/#x-2840ANTS-DOC-FULL-2FBUILDER-3AUPDATE-ASDF-SYSTEM-DOCS-20FUNCTION-29" data-document="https://40ants.com/doc/" data-node="x-2840ANTS-DOC-FULL-2FBUILDER-3AUPDATE-ASDF-SYSTEM-DOCS-20FUNCTION-29"><code>40ants-doc-full/builder:update-asdf-system-docs</code></a>, which also supports
+  ChangeLog.md generation. Use <a href="https://40ants.com/doc/#x-2840ANTS-DOC-2FCHANGELOG-3ADEFCHANGELOG-20-2840ANTS-DOC-2FLOCATIVES-3AMACRO-29-29" data-document="https://40ants.com/doc/" data-node="x-2840ANTS-DOC-2FCHANGELOG-3ADEFCHANGELOG-20-2840ANTS-DOC-2FLOCATIVES-3AMACRO-29-29"><code>40ants-doc/changelog:defchangelog</code></a> to define versions.</p></li><li><p>Variables <code>*DOCUMENT-HTML-MAX-NAVIGATION-TABLE-OF-CONTENTS-LEVEL*</code> and
+  <code>*DOCUMENT-MAX-TABLE-OF-CONTENTS-LEVEL*</code> were removed. Probably we'll return this
+  feature back in other form, to restrict <code>TOC</code>'s size.</p></li><li><p>Removed <code>LOCATE-AND-DOCUMENT</code> generic function.</p></li><li><p>Links to the GitHub now are generated automatically,
+  if <a href="https://40ants.com/doc/#x-2840ANTS-DOC-FULL-2FBUILDER-3AUPDATE-ASDF-SYSTEM-DOCS-20FUNCTION-29" data-document="https://40ants.com/doc/" data-node="x-2840ANTS-DOC-FULL-2FBUILDER-3AUPDATE-ASDF-SYSTEM-DOCS-20FUNCTION-29"><code>40ants-doc-full/builder:update-asdf-system-docs</code></a> function is used
+  and system definition has a <code>:SOURCE-CONTROL</code> slot.</p></li><li><p>Generic functions <code>COLLECT-REACHABLE-OBJECTS</code> and <code>LOCATE-AND-COLLECT-REACHABLE-OBJECTS</code>
+  were removed.</p></li><li><p>Variables <code>*DOCUMENT-LINK-SECTIONS*</code>, <code>*DOCUMENT-TEXT-NAVIGATION*</code> and <code>*DOCUMENT-FANCY-HTML-NAVIGATION*</code> were removed.</p></li><li><p>Variable <code>*DOCUMENT-MIN-LINK-HASH-LENGTH*</code> was removed. Use <code>COMMONDOC-MARKDOWN:*MIN-LINK-HASH-LENGTH*</code></p></li><li><p>Functions <a href="https://40ants.com/doc/#x-2840ANTS-DOC-FULL-2FBUILDER-3AUPDATE-ASDF-SYSTEM-DOCS-20FUNCTION-29" data-document="https://40ants.com/doc/" data-node="x-2840ANTS-DOC-FULL-2FBUILDER-3AUPDATE-ASDF-SYSTEM-DOCS-20FUNCTION-29"><code>40ants-doc-full/builder:update-asdf-system-docs</code></a> and <a href="https://40ants.com/doc/#x-2840ANTS-DOC-FULL-2FBUILDER-3ARENDER-TO-FILES-20FUNCTION-29" data-document="https://40ants.com/doc/" data-node="x-2840ANTS-DOC-FULL-2FBUILDER-3ARENDER-TO-FILES-20FUNCTION-29"><code>40ants-doc-full/builder:render-to-files</code></a>
+  now accept <code>WARN-ON-UNDOCUMENTED-PACKAGES</code> argument and <code>CLEAN-URLS</code> argument.</p></li><li><p>Variable <code>*DOCUMENT-MARK-UP-SIGNATURES*</code> was removed.</p></li><li><p>Added <code>DOWNCASE-UPPERCASE-CODE</code> argument instead of <code>*DOCUMENT-DOWNCASE-UPPERCASE-CODE*</code>.
+  This argument is true by default.</p></li><li><p>Added warnings on symbols, referenced like internals, using <code>::</code>.</p></li><li><p>Added <a href="https://40ants.com/doc/#x-2840ANTS-DOC-3ADEFSECTION-COPY-20-2840ANTS-DOC-2FLOCATIVES-3AMACRO-29-29" data-document="https://40ants.com/doc/" data-node="x-2840ANTS-DOC-3ADEFSECTION-COPY-20-2840ANTS-DOC-2FLOCATIVES-3AMACRO-29-29"><code>40ants-doc:defsection-copy</code></a> macro to define copy of the section but with a different name.</p></li></ul><h2>0.1.0 (2021-05-01)<a class=header-link
+     href=#x-2840ANTS-DOC-2FCHANGELOG-3A-3A-7C0-2E1-2E0-7C-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29
+     title="Permalink to this headline"
+     id=x-2840ANTS-DOC-2FCHANGELOG-3A-3A-7C0-2E1-2E0-7C-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29></a></h2><ul><li><p>Project forked from <a href="https://github.com/melisgl/mgl-pax">MGL-PAX</a>.
+  Code refactored into the package inferred system and core is separated
+  to have minimum dependencies.</p></li><li><p>Fixed displaying docstring for constant locative.</p></li><li><p>Include locative was fixed for files with unicode characters
+  file-subseq function was rewritten.</p></li><li><p>Locatives can be specified without a package prefix inside the defsection
+  because all locative symbols now live in <a href="https://40ants.com/doc/#x-28-23A-28-2820-29-20BASE-CHAR-20-2E-20-2240ANTS-DOC-2FLOCATIVES-22-29-20PACKAGE-29" data-document="https://40ants.com/doc/" data-node="x-28-23A-28-2820-29-20BASE-CHAR-20-2E-20-2240ANTS-DOC-2FLOCATIVES-22-29-20PACKAGE-29"><code>40ants-doc/locatives</code></a> package.</p></li><li><p>Function update-asdf-system-readmes was renamed to update-asdf-system-readmes and now
+  it generates only one <code>README</code> file.</p></li><li><p>Tests were rewritten to use Rove and to support <code>(asdf:test-system :40ants-doc)</code>.</p></li><li><p>Removed <code>MGL-PAX:DEFINE-PACKAGE</code> macro. An <code>UIOP:DEFINE-PACKAGE</code> can be used instead.</p></li><li><p>Now builder issues a warning if it wasn't able to find a symbol mentioned in the docstring.</p></li><li><p>Uppercase word should have at least two charaters to be resolved as a symbol.</p></li><li><p>Improved work with package inferred systems. For examples, when fixed the
+  automatic symbol rendering for case when documentation section and
+  referenced objects are in different packages.</p></li><li><p>Allowed to reference objects using keywords.</p></li><li><p>Fixed docstring extraction for compiler macro.</p></li></ul>
+    <script type="text/javascript">
+             MathJax = { 
+              options: {
+                ignoreHtmlClass: 'page',
+                processHtmlClass: 'content'
+              },
+              tex: {
+                 inlineMath: [['$','$']]
+              },
+              svg: {
+                 fontCache: 'global'
+              }
+             };
+        </script>
+    <script type="text/javascript"
+            src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script type="text/javascript" async
+            src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
+   </div><div class=footer>
+    <hr class=separator>
+    <p class=fineprint>Created with passion by <em>40Ants</em><a class=lisp-logo
+     href="http://lisp-lang.org/">
+      <img
+           src="https://40ants.com/img/made-with-lisp.svg"></a>
+   </div>
+  </div>
+ </body>
+</html>
